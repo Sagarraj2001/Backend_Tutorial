@@ -1,0 +1,42 @@
+<!-- // app.get("/user",(req,res)=>{
+//     const html=`
+//     <ol>
+//         ${users.map((user)=>`<li> ${user.first_name}</li>`).join("")
+//         }
+//     </ol>
+//     `;
+//     res.send(html)
+// })
+
+
+// app.get("/api/user",(req,res)=>{
+//     res.json(users);
+// })
+
+//fetch data through given id
+ -->
+ <!-- // app.use((req,res,next)=>{
+    //     console.log("middleware is running");
+    //     next();
+    // });
+    
+    // app.get("/",(req,res)=>{
+    //     res.send("Hi i am home page");
+    // });
+    
+    
+    
+    // //error handler
+    
+    
+    // // app.get("/about",(req,res,next)=>{
+    // //     return next(new Error("not build this page"));
+    // // })
+    
+    // // app.use((err,req,res,next)=>{
+    // //     console.log(err.stack);
+    // //     res.status(500).send("something broke");
+    // // })
+    
+    // app.listen(3000);
+     --> -->

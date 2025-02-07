@@ -1,10 +1,8 @@
 const http=require("http");
 
-const server =http.createServer((req,res)=>{
-    res.end("hello world!");
-})
+const myServer=http.createServer((req,res)=>{
+    console.log(req);
+    res.end("hi i am server");
+});
 
-const port=3800;
-server.listen(port,()=>{
-    console.log(`server is listening at ${port} `);
-})
+myServer.listen(8000,()=>console.log("server is running"));
